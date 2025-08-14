@@ -1,0 +1,413 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vikram Kalister - Data Scientist</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <span class="logo-text">Vikram Kalister | Data Science</span>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#home" class="nav-link">Home</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#resume" class="nav-link">Resume</a></li>
+                <li><a href="#certifications" class="nav-link">Certifications</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <div class="nav-controls">
+                <button class="theme-toggle" id="theme-toggle">
+                    <i class="fas fa-moon"></i>
+                </button>
+                <div class="hamburger" id="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Homepage -->
+    <section id="home" class="section hero">
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h1 class="hero-title">
+                        Hi, I'm <span class="highlight">Vikram Kalister!</span>
+                    </h1>
+                    <h2 class="hero-subtitle">Data Scientist</h2>
+                    <p class="hero-description">
+                        Transforming complex data into actionable insights through machine learning, 
+                        statistical analysis, and data visualization. Passionate about solving real-world 
+                        problems with data-driven solutions.
+                    </p>
+                    <div class="hero-buttons">
+                        <a href="#projects" class="btn btn-primary">View Projects</a>
+                        <a href="#contact" class="btn btn-secondary">Get In Touch</a>
+                    </div>
+                </div>
+                <div class="hero-visual">
+                    <div class="profile-container">
+                        <img src="/images/IMG_4627_upscayl_5x_ultramix-balanced-4x.png" alt="Profile" class="profile-image">
+                        <div class="data-visualization">
+                            <div class="chart-container">
+                                <div class="bar-chart">
+                                    <div class="bar" style="height: 60%"></div>
+                                    <div class="bar" style="height: 80%"></div>
+                                    <div class="bar" style="height: 45%"></div>
+                                    <div class="bar" style="height: 90%"></div>
+                                    <div class="bar" style="height: 70%"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects -->
+    <section id="projects" class="section">
+        <div class="container">
+            <h2 class="section-title">Featured Projects</h2>
+            <p class="section-subtitle">Explore my data science projects highlighting machine learning, data engineering, and cloud-based solutions.</p>
+            
+            <div class="projects-grid" id="projects-grid">
+                <div class="project-card">
+                    <div class="project-header">
+                        <h3 class="project-title">Predicting Heart Disease Risk</h3>
+                        <div class="project-language">Python</div>
+                    </div>
+                    <p class="project-description">
+                        Created machine learning models to predict heart disease from 100,000+ patient records, improving detection accuracy by 7% and utilizing SMOTE to address data imbalances.
+                    </p>
+                    <div class="project-tech">
+                        <span class="tech-tag">Python</span>
+                        <span class="tech-tag">Scikit-learn</span>
+                        <span class="tech-tag">SMOTE</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="#" class="project-link">
+                            <i class="fab fa-github"></i> Code
+                        </a>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-header">
+                        <h3 class="project-title">Web Traffic Analysis Pipeline</h3>
+                        <div class="project-language">Python</div>
+                    </div>
+                    <p class="project-description">
+                        Built a cloud-based log analytics solution using AWS Glue, EMR, and QuickSight to process 1.2 million records, improving performance by 200% and driving a 16% YoY increase in traffic.
+                    </p>
+                    <div class="project-tech">
+                        <span class="tech-tag">Python</span>
+                        <span class="tech-tag">AWS</span>
+                        <span class="tech-tag">Apache Products</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="https://github.com/vkalister7/DSC540-Project" class="project-link">
+                            <i class="fab fa-github"></i> Code
+                        </a>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-header">
+                        <h3 class="project-title">Wind Power Output Forecasting</h3>
+                        <div class="project-language">Python</div>
+                    </div>
+                    <p class="project-description">
+                        Developed an ARIMA model in Python to predict wind power output based on 5 years of data, optimizing energy generation by 5% and achieving a forecast error below 6%.
+                    </p>
+                    <div class="project-tech">
+                        <span class="tech-tag">Python</span>
+                        <span class="tech-tag">Scikit-learn</span>
+                        <span class="tech-tag">ARIMA</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="#" class="project-link">
+                            <i class="fab fa-github"></i> Code
+                        </a>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-header">
+                        <h3 class="project-title">Resume Builder</h3>
+                        <div class="project-language">Python</div>
+                    </div>
+                    <p class="project-description">
+                        Built a customizable resume generator that takes user input or uploaded resumes and formats them using one of three LaTeX templates. The application supports local deployment and can also be hosted using Docker, AWS, or Azure for broader accessibility.
+                    </p>
+                    <div class="project-tech">
+                        <span class="tech-tag">Python</span>
+                        <span class="tech-tag">Docker</span>
+                        <span class="tech-tag">AWS</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="#" class="project-link">
+                            <i class="fab fa-github"></i> Code
+                        </a>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-header">
+                        <h3 class="project-title">Weather Dashboard</h3>
+                        <div class="project-language">PowerBI</div>
+                    </div>
+                    <p class="project-description">
+                        Developed an interactive weather dashboard that visualizes historical weather data, displaying temperature trends, weather conditions (e.g., sunny, cloudy, rainy, snowy), and supports flexible time-based views (daily, monthly, yearly).
+                    </p>
+                    <div class="project-tech">
+                        <span class="tech-tag">PowerBI</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="https://github.com/vkalister7/weather-dashboard" class="project-link">
+                            <i class="fab fa-github"></i> Code
+                        </a>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Resume Info + Download -->
+    <section id="resume" class="section">
+        <div class="container">
+            <h2 class="section-title">Resume</h2>
+            <p class="section-subtitle">Download my complete resume or view key highlights</p>
+            
+            <div class="resume-container">
+                <div class="resume-download">
+                    <a href="Resume - Vikram.pdf" class="btn btn-primary" download>
+                        <i class="fas fa-download"></i> Download PDF
+                    </a>
+                </div>
+                
+                <div class="resume-preview">
+                    <div class="resume-section">
+                        <h3>Experience</h3>
+                        <div class="resume-item">
+                            <h4>Data Scientist</h4>
+                            <p class="company">Antline • 2023 - Present</p>
+                            <ul>
+                                <li>Developed a Tenant Screener tool using Logistic Regression, Random Forest, and XGBoost, achieving 87% accuracy and integrating with internal systems for real-time screening.</li>
+                                <li>Built a House Price Prediction system with Gradient Boosting and Random Forest, improving valuation accuracy and reducing manual analysis by 60%.</li>
+                                <li>Applied K-means clustering on customer data to identify 4 target personas, boosting engagement by 12% and conversions by 9%.</li>
+
+                            </ul>
+                        </div>
+                        <div class="resume-item">
+                            <h4>IT Intern</h4>
+                            <p class="company">Wintrust Financial • 2021</p>
+                            <ul>
+                                <li>Enhanced data accuracy by 20% through improved SQL queries and data analysis</li>
+                                <li>Built Power BI dashboards, increasing reporting efficiency by 50%</li>
+                                <li>Provided actionable insights into Microsoft Teams communication efficiency by analyzing call patterns</li>
+
+                            </ul>
+                        </div>
+                    </div>
+                    
+                    <div class="resume-section">
+                        <h3>Education</h3>
+                        <div class="resume-item">
+                            <h4>Bachelor of Science in Data Science</h4>
+                            <p class="company">DePaul University • 2022</p>
+                        </div>
+                        <div class="resume-item">
+                            <h4>Bachelor of Science in Business Administration</h4>
+                            <p class="company">Linköping University & INSEEC Business School • 2021</p>
+                        </div>
+                    </div>
+                    
+                    <div class="resume-section">
+                        <h3>Skills</h3>
+                        <div class="skills-grid">
+                            <div class="skill-category">
+                                <h4>Programming</h4>
+                                <div class="skill-tags">
+                                    <span class="skill-tag">Python</span>
+                                    <span class="skill-tag">R</span>
+                                    <span class="skill-tag">SQL</span>
+                                </div>
+                            </div>
+                            <div class="skill-category">
+                                <h4>Machine Learning</h4>
+                                <div class="skill-tags">
+                                    <span class="skill-tag">Scikit-learn</span>
+                                    <span class="skill-tag">XGBoost</span>
+                                    <span class="skill-tag">Imbalanced Learn</span>
+                                </div>
+                            </div>
+                            <div class="skill-category">
+                                <h4>Tools & Platforms</h4>
+                                <div class="skill-tags">
+                                    <span class="skill-tag">AWS</span>
+                                    <span class="skill-tag">Oracle</span>
+                                    <span class="skill-tag">Jupyter</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Certifications -->
+    <section id="certifications" class="section">
+        <div class="container">
+            <h2 class="section-title">Certifications</h2>
+            <p class="section-subtitle">Professional certifications and achievements</p>
+            
+            <div class="certifications-grid">
+                <div class="cert-card">
+                    <div class="cert-icon">
+                        <i class="fab fa-aws"></i>
+                    </div>
+                    <h3 class="cert-title">AWS Certified Cloud Practitioner</h3>
+                    <p class="cert-org">Amazon Web Services</p>
+                    <p class="cert-date">Issued: December 2022</p>
+                    <a href="https://www.credly.com/badges/db9136e3-3fbc-4131-8173-926726b9e85e" class="cert-link">Verify Certificate</a>
+                </div>
+                
+                <div class="cert-card">
+                    <div class="cert-icon">
+                        <i class="fa-solid fa-database"></i>
+                    </div>
+                    <h3 class="cert-title">Oracle Certified Foundations Associate</h3>
+                    <p class="cert-org">Oracle</p>
+                    <p class="cert-date">Issued: October 2023</p>
+                    <a href="https://catalog-education.oracle.com/ords/certview/sharebadge?id=0BCA77920A225DA38BEF443AD6835644BF9FB584785F5555BD55B8BA3FC13BC2" class="cert-link">Verify Certificate</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Me -->
+    <section id="about" class="section">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>I'm a data scientist with a passion for uncovering insights from complex datasets and turning them into impactful solutions. With over 3 years of hands-on experience in machine learning, cloud technologies, and data analytics, I thrive on solving real-world problems through data-driven strategies.
+                    </p>
+                    <p>My career began with a curiosity for how data can drive decision-making, which led me to study Data Science and Business Administration. Since then, I've worked on projects ranging from predictive modeling for tenant screening and house price forecasting, to customer segmentation and web traffic analysis. I specialize in building scalable models and data pipelines using tools like AWS, Azure, Python, and Power BI, to help businesses make smarter, faster decisions.
+                    </p>
+                    <p>Outside of work, I’m always exploring new techniques in machine learning and AI. I believe in continuous learning and love staying up to date with the ever-evolving tech landscape.</p>
+
+                    <div class="interests">
+                        <h3>Interests & Specializations</h3>
+                        <div class="interest-tags">
+                            <span class="interest-tag">Data Science</span>
+                            <span class="interest-tag">Machine Learning</span>
+                            <span class="interest-tag">Time Series Analysis</span>
+                            <span class="interest-tag">Data Visualization</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="about-stats">
+                    <div class="stat-card">
+                        <div class="stat-number">3+</div>
+                        <div class="stat-label">Years Experience</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-number">15+</div>
+                        <div class="stat-label">Technologies Mastered</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="section">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            <p class="section-subtitle">Let's discuss data science opportunities and collaborations</p>
+            
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <div>
+                            <h3>Email</h3>
+                            <p>vikram.kalister@gmail.com</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fa-solid fa-phone"></i>
+                        <div>
+                            <h3>Phone</h3>
+                            <p>(224)733-2591</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fab fa-linkedin"></i>
+                        <div>
+                            <h3>LinkedIn</h3>
+                            <p>https://www.linkedin.com/in/vikram-kalister-a51222206/</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fab fa-github"></i>
+                        <div>
+                            <h3>GitHub</h3>
+                            <p>https://github.com/vkalister7</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <form class="contact-form" id="contact-form">
+                    <div class="form-group">
+                        <input type="text" id="name" name="name" placeholder="Your Name" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" id="email" name="email" placeholder="Your Email" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" id="subject" name="subject" placeholder="Subject" required>
+                    </div>
+                    <div class="form-group">
+                        <textarea id="message" name="message" placeholder="Your Message" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <p>&copy; 2025 Vikram Kalister. All rights reserved.</p>
+                <div class="social-links">
+                    <a href="https://github.com/vkalister7" class="social-link"><i class="fab fa-github"></i></a>
+                    <a href="https://www.linkedin.com/in/vikram-kalister-a51222206/" class="social-link"><i class="fab fa-linkedin"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
